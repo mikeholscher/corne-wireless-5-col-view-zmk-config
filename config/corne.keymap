@@ -3,6 +3,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    chosen { zmk,matrix-transform = &default_transform; };
+};
+
+/ {
     combos {
         compatible = "zmk,combos";
 
