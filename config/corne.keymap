@@ -19,9 +19,9 @@
     };
 
     behaviors {
-        new_behavior: new_behavior {
+        hm: hm {
             compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
+            label = "HM";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -37,7 +37,7 @@
         Base {
             bindings = <
   &kp Q               &kp W           &kp F               &kp P             &kp B        &kp J        &kp L              &kp U                &kp Y            &kp SQT
-  &mt LEFT_COMMAND A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G        &kp M        &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &mt RIGHT_COMMAND O
+  &hm LEFT_COMMAND A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G        &kp M        &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_COMMAND O
   &lt 3 Z             &kp X           &kp C               &kp D             &kp V        &kp K        &kp H              &kp COMMA            &kp PERIOD       &kp SLASH
                                       &kp ESCAPE          &lt 3 SPACE       &lt 1 TAB    &lt 4 ENTER  &lt 2 BACKSPACE    &kp DEL
             >;
