@@ -19,9 +19,9 @@
     };
 
     behaviors {
-        hm: hm {
+        as: as {
             compatible = "zmk,behavior-hold-tap";
-            label = "HM";
+            label = "AS";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -36,10 +36,10 @@
 
         Base {
             bindings = <
-  &kp Q               &kp W           &kp F               &kp P             &kp B        &kp J        &kp L              &kp U                &kp Y            &kp SQT
-  &hm LEFT_COMMAND A  &hm LEFT_ALT R  &hm LEFT_CONTROL S  &hm LEFT_SHIFT T  &kp G        &kp M        &hm RIGHT_SHIFT N  &hm RIGHT_CONTROL E  &hm RIGHT_ALT I  &hm RIGHT_COMMAND O
-  &lt 3 Z             &kp X           &kp C               &kp D             &kp V        &kp K        &kp H              &kp COMMA            &kp PERIOD       &kp SLASH
-                                      &kp ESCAPE          &lt 3 SPACE       &lt 1 TAB    &lt 4 ENTER  &lt 2 BACKSPACE    &kp DEL
+  &as LS(Q) Q  &as LS(W) W  &as LS(F) F  &as LS(P) P           &as LS(B) B    &as LS(J) J  &as LS(L) L      &as LS(U) U          &as LS(Y) Y       &as LS(SQT) SQT
+  &as LS(A) A  &as LS(R) R  &as LS(S) S  &as LS(LEFT_SHIFT) T  &as LS(G) G    &as LS(M) M  &as LS(N) N      &as LS(E) E          &as LS(I) I       &as LS(O) O
+  &as LS(Z) Z  &as LS(X) X  &as LS(C) C  &as LS(D) D           &as LS(V) V    &as LS(K) K  &as LS(H) H      &as SEMICOLON COMMA  &as COLON PERIOD  &as EXCLAMATION QUESTION
+                            &kp ESCAPE   &lt 3 SPACE           &lt 1 TAB      &lt 4 ENTER  &lt 2 BACKSPACE  &kp DEL
             >;
         };
 
