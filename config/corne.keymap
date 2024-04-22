@@ -61,7 +61,7 @@
 
         Number {
             bindings = <
-  &kp SLASH     &kp MINUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &trans  &trans           &trans             &trans         &trans
+  &kp EQUAL     &kp MINUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &trans  &trans           &trans             &trans         &trans
   &kp ASTERISK  &kp PLUS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
   &kp N0        &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &trans  &trans           &trans             &trans         &trans
                             &trans        &NumSpaceOut  &NumEnterOut    &trans  &trans           &trans
@@ -70,10 +70,10 @@
 
         Symbol {
             bindings = <
-  &kp GRAVE      &kp HASH     &kp DOLLAR     &kp LEFT_BRACE        &kp RIGHT_BRACE          &trans  &trans           &trans             &trans         &trans
-  &kp SEMICOLON  &kp PERCENT  &kp AMPERSAND  &kp LBKT              &kp RBKT                 &trans  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND
-  &kp BACKSLASH  &kp SLASH    &kp AT_SIGN    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans  &trans           &trans             &trans         &trans
-                              &trans         &trans                &trans                   &trans  &trans           &trans
+  &kp EQUAL     &kp MINUS  &kp LESS_THAN         &kp GREATER_THAN  &kp CARET    &kp DOLLAR  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+  &kp ASTERISK  &kp PLUS   &kp NON_US_BACKSLASH  &kp SLASH         &kp PIPE     &kp TILDE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+  &kp GRAVE     &kp UNDER  &kp HASH              &kp AT_SIGN       &kp PRCNT    &trans      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans
+                           &trans                &trans            &trans       &trans      &trans                &trans
             >;
         };
 
